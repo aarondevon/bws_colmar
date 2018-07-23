@@ -1,0 +1,13 @@
+.flex-container {
+	display: flex;
+}
+
+header {
+	height: 64px;
+	align-items: center;
+}
+
+nav {
+	width: 100%;
+	justify-content: space-around;
+}
