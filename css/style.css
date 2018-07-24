@@ -68,7 +68,7 @@ main {
 
 /**************/
 
-/*Practicing content************/
+/*Information************/
 
 .information {
 	max-width: 100%;
@@ -81,21 +81,47 @@ main {
 	display: none;
 }
 
-.side-img {
+.mobile-side-img img {
 	max-width: 100%;
-	height: 272px;
+	height: auto;
 }
 
-.side-img1 {
-	background-image: url(/resources/images/information-orientation-mobile.jpg);
+.side-img {
+	display: none;
 }
 
-.side-img2 {
-	background-image: url(/resources/images/information-campus-mobile.jpg);
+/**************/
+
+/*Course************/
+
+.course {
+	max-width: 100%;
+	padding: 0px 16px 0px 16px;
+	border: 1px solid #D3D2D3;
 }
 
-.side-img3 {
-	background-image: url(/resources/images/information-guest-lecture-mobile.jpg);
+.course-heading {
+	text-align: center;
+	margin: 32px 0px 16px 0px;
 }
 
+.course-sections {
+	margin-bottom: 8px;
+}
+
+.course-img {
+	display: none;
+}
+
+.course-title {
+	padding: 16px 0px 24px 16px;
+	background: #D3D2D3;
+}
+
+.course-content {
+	display: none;
+}
+.course-last {
+	margin-bottom: 32px;
+}
 /**************/
