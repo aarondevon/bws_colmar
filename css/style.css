@@ -152,6 +152,10 @@ main {
 	flex-direction: column;
 }
 
+.side-content {
+	flex-direction: column;
+}
+
 @media only screen and (min-width: 273px) {
 	.information {
 		margin: 0 auto;
@@ -207,10 +211,6 @@ main {
 	}
 
 }
-
-
-
-
 /**************/
 
 /*Course************/
@@ -245,6 +245,53 @@ main {
 .course-last {
 	margin-bottom: 32px;
 }
+
+@media only screen and (min-width: 750px) {
+	.course	{
+		background: #E7E8E9;
+		/* padding-bottom: 32px; */
+	}
+	.course-heading {
+		padding: 32px 0px;
+	} 
+
+	.course-container {
+		flex-wrap: wrap;
+		margin: 0px 72px;
+	}
+
+	.course-sections {
+		background: #fff;
+		max-width: 31%;
+		padding-bottom: 24px;
+		margin-right: 32px;
+		margin-bottom: 32px;
+	}
+
+	.course-img {
+		display: inline-block;
+	}
+
+	.course-img img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.course-content {
+		display: inline-block;
+		padding-left: 16px;
+	}
+
+	.course-title {
+		background: #fff;
+	}
+
+	.third, .course-last {
+		margin-right: 0px;
+		margin-bottom: 32px;
+	}
+}
+
 /**************/
 
 /*Thesis************/
