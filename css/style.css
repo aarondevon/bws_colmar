@@ -226,6 +226,10 @@ main {
 	margin: 32px 0px 16px 0px;
 }
 
+.course-container {
+	flex-direction: column;
+}
+
 .course-sections {
 	margin-bottom: 8px;
 }
@@ -256,13 +260,15 @@ main {
 	} 
 
 	.course-container {
+		flex-direction: row;
 		flex-wrap: wrap;
 		margin: 0px 72px;
+		justify-content: center;
 	}
 
 	.course-sections {
 		background: #fff;
-		max-width: 31%;
+		max-width: 45%;
 		padding-bottom: 24px;
 		margin-right: 32px;
 		margin-bottom: 32px;
@@ -286,7 +292,27 @@ main {
 		background: #fff;
 	}
 
-	.third, .course-last {
+	.course-second, .course-fourth, .course-last {
+		margin-right: 0px;
+		margin-bottom: 32px;
+	}
+}
+
+@media only screen and (min-width: 1092px) {
+
+	.course-container {
+		justify-content: flex-start;
+	}
+
+	.course-sections {
+		background: #fff;
+		max-width: 31%;
+		padding-bottom: 24px;
+		margin-right: 32px;
+		margin-bottom: 32px;
+	}
+
+	.course-third, .course-last {
 		margin-right: 0px;
 		margin-bottom: 32px;
 	}
@@ -311,6 +337,10 @@ main {
 
 .thesis-sections {
 	display: none;
+}
+
+@media only screen and (min-width: 750px) {
+
 }
 
 /**************/
