@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Colmar Academy</title>
+	<link rel="icon" href="./<favicon-name>.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -17,7 +19,7 @@
 				<div class="logo"><a href="#"><img src="resources/images/ic-logo.svg" alt="Colmar Logo"></a></div>
 				<h1><span class="colmar">COLMAR</span><span class="academy">ACADEMY</span></h1>
 				<div class="links .flex-container">
-					<ul>
+					<ul role="presentation">
 						<li><a href="">On Campus</a></li>
 						<li><a href="">Online</a></li>
 						<li><a href="">For companies</a></li>
@@ -198,27 +200,33 @@
 			<!-- Thesis Section -->
 			<div class="thesis">
 				<h2 class="thesis-heading">Thesis exhibits</h2>
-				<div class="thesis-video">
-					<video src="resources/videos/thesis.mp4"></video>
-				</div>
-				<div class="thesis-sections">
-					<div class="thesis-content">
-						<div class="thesis-img">
-							<img src="resources/images/thesis-fisma.jpg" alt="Person working with papers and an iPhone">
-						</div>
-						<div class="thesis-section-content">
-							<h2>Fisma: Design and Prototype</h2>
-							<p>Designer showcase of new prototype product</p>
-						</div>
+				<div class="thesis-container flex-container">
+					<div class="thesis-video">
+						<video src="resources/videos/thesis.mp4"></video>
+						<div class="video-content">
+							<h2>Reimagine urban</h2>
+							<p>"Curabitu vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+						</div>	
 					</div>
-
-					<div class="thesis-content">
-						<div class="thesis-img">
-							<img src="resources/images/thesis-now-and-then.jpg" alt="Picture of New York City">
+					<div class="thesis-sections">
+						<div class="thesis-content thesis-content-one flex-container">
+							<div class="thesis-img">
+								<img src="resources/images/thesis-fisma.jpg" alt="Person working with papers and an iPhone">
+							</div>
+							<div class="thesis-section-content">
+								<h2>Fisma: Design and Prototype</h2>
+								<p>Designer showcase of new prototype product</p>
+							</div>
 						</div>
-						<div class="thesis-section-content">
-							<h2>Now and then</h2>
-							<p>Research study about New York</p>
+
+						<div class="thesis-content flex-container">
+							<div class="thesis-img">
+								<img src="resources/images/thesis-now-and-then.jpg" alt="Picture of New York City">
+							</div>
+							<div class="thesis-section-content">
+								<h2>Now and then</h2>
+								<p>Research study about New York</p>
+							</div>
 						</div>
 					</div>
 				</div>
